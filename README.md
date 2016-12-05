@@ -9,8 +9,10 @@ The tested app is a weather app made by James Montemagno for Xamarin Devdays 201
 ![1](img/1.png)
 [Slides](https://github.com/Geertvdc/BDDXamarin/blob/master/BDD%20%26%20Specflow%20for%20Xamarin.pdf)
 
+# Specflow Feature
 ![2](img/2.png)
-![3](img/3.png)
+
+# Testcloud results
 ![4](img/4.png)
 ![5](img/5.png)
 ![6](img/6.png)
