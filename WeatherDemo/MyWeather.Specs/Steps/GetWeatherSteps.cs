@@ -11,7 +11,7 @@ namespace MyWeather.BDD
 		readonly IApp app;
 
 		public ForecastSteps()
-		{ 
+		{
 			app = FeatureContext.Current.Get<IApp>("App");
 		}
 
@@ -56,7 +56,7 @@ namespace MyWeather.BDD
 			var labelText = temperatureLabel[0].Text;
 			Assert.IsNotNull(labelText);
 
-			if (format.Equals("Celcius"))
+			if (format.Equals("Celsius"))
 			{
 				Assert.AreEqual(labelText.Substring(labelText.Length - 1), "C");
 			}

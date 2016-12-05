@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace MyWeather.BDD
+namespace MyWeather.Specs
 {
     using TechTalk.SpecFlow;
     
@@ -24,7 +24,7 @@ namespace MyWeather.BDD
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "WeatherForecast.feature"
+#line 1 "GetWeather.feature"
 #line hidden
         
         [NUnit.Framework.TestFixtureSetUpAttribute()]
@@ -64,10 +64,10 @@ namespace MyWeather.BDD
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Get forecast for manually added location in Celcius")]
-        public virtual void GetForecastForManuallyAddedLocationInCelcius()
+        [NUnit.Framework.DescriptionAttribute("Get forecast for manually added location in Celsius")]
+        public virtual void GetForecastForManuallyAddedLocationInCelsius()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get forecast for manually added location in Celcius", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get forecast for manually added location in Celsius", ((string[])(null)));
 #line 6
 this.ScenarioSetup(scenarioInfo);
 #line 7
@@ -104,10 +104,10 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Get forecast for GPS location in Celcius")]
-        public virtual void GetForecastForGPSLocationInCelcius()
+        [NUnit.Framework.DescriptionAttribute("Get forecast for GPS location in Celsius")]
+        public virtual void GetForecastForGPSLocationInCelsius()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get forecast for GPS location in Celcius", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get forecast for GPS location in Celsius", ((string[])(null)));
 #line 19
 this.ScenarioSetup(scenarioInfo);
 #line 20
@@ -119,7 +119,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 23
  testRunner.When("I press the Get Weather button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 24
- testRunner.Then("the weather for \"Amsterdam\" should be shown in \"Fahrenheit\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the weather for \"Amsterdam\" should be shown in \"Celsius\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }

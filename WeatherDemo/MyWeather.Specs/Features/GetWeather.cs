@@ -3,9 +3,9 @@ using NUnit.Framework;
 using TechTalk.SpecFlow;
 using Xamarin.UITest;
 
-namespace MyWeather.BDD
+namespace MyWeather.Specs
 {
-	[TestFixture(Platform.Android)]
+    [TestFixture(Platform.Android)]
 	[TestFixture(Platform.iOS)]
 	public partial class GettingTheWeatherForecastFeature
 	{
@@ -21,7 +21,11 @@ namespace MyWeather.BDD
 		public void BeforeEachTest()
 		{
 			app = AppInitializer.StartApp(platform);
-			FeatureContext.Current.Add("App", app);
+
+			if (!FeatureContext.Current.ContainsKey("App"))
+			{
+				FeatureContext.Current.Add("App", app);
+			}
 		}
 	}
 }
