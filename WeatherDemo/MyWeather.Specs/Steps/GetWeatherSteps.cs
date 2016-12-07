@@ -21,7 +21,7 @@ namespace MyWeather.BDD
 		}
 
 		[When(@"I have entered ""(.*)"" as the location")]
-		public void GiveInIHaveEnteredAmsterdamAsALocation(string location)
+		public void GiveInIHaveEnteredAStringAsALocation(string location)
 		{
 			app.Tap(x => x.Marked("LocationEntry"));
 

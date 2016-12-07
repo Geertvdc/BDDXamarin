@@ -6,6 +6,10 @@ https://university.xamarin.com/guestlectures
 This sample app uses Specflow and Xamarin Testcloud to create testable specifications that can be ran automated.
 The tested app is a weather app made by James Montemagno for Xamarin Devdays 2016.
 
+specflow plugins for Visual Studio & Xamarin Studio:
+ - [Visual Studio](https://marketplace.visualstudio.com/items?itemName=TechTalkSpecFlowTeam.SpecFlowforVisualStudio2013)
+ - [Xamarin Studio](https://github.com/mikeyjones/SpecFlow)
+
 ![1](img/1.png)
 [Slides](https://github.com/Geertvdc/BDDXamarin/blob/master/BDD%20%26%20Specflow%20for%20Xamarin.pdf)
 
